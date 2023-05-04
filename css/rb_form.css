@@ -1,0 +1,94 @@
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 7
+   Tutorial Case
+
+   Survey Forms Style Sheet
+   Author:
+   Date:
+
+   Filename:         rb_forms.css
+
+*/
+
+/* Form Layout Styles */
+
+form#survey {
+  display: flex;
+  flex-flow: row wrap;
+}
+form#survey > fieldset {
+  background-color: #AAA08B;
+  border-radius: 20px;
+  flex: 1 1 300px;
+  font-size: 0.85em;
+  padding: 10px;
+  margin: 10px;
+}
+
+div.formRow {
+  display: flex;
+  flex-flow: row wrap ;
+  margin: 7px 0px;
+}
+
+div.formRow > * {
+  flex: 1 1 150px;
+}
+
+/* Legend Styles */
+
+legend {
+    background-color: #768F75;
+    color: #FFFFF2;
+    text-align: center;
+}
+
+
+/* Text Area Styles */
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+}
+
+/* Spinner Styles */
+
+
+
+/* Form Button Styles */
+
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='Submit!'], input[type='Reset!']{
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+}
+
+/* Validation Styles */
+#custInfo .formRow label {
+    background-color: #AAA08B;
+    color: #FFFFF2;
+}
+#expInfo .formRow label {
+    color: #FFFFF2;
+    background-color: #AAA08B;
+}
+.text-left {
+    color: #FFFFF2;
+}
+.text-center {
+    background-color: #9BAC9A;
+}
+#survey #custInfo label {
+    color: #FFFFF2;
+}
+#survey #buttons input {
+    background-color: #FFFFF2;
+    color: #768F75;
+}
