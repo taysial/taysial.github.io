@@ -17,6 +17,7 @@ aside .container .text {
     color: #EFEFDD;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
+
 aside .container img {
     float: left;
     width: 370px;
@@ -43,6 +44,7 @@ aside .container .text {
 .navbar-nav.mr-auto .nav-item .nav-link {
     color: #F5F5F5;
     text-shadow: 0px 0px #FFFFFF;
+	display: inline-block;
 }
 .container-fluid .container .text-center {
     color: #FFFFF2;
@@ -101,4 +103,21 @@ body p {
 
 .container {
     background-color: #9BAC9A;
+}
+.navbar-nav > li > a {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+aside .container.d-flex.align-items-center .img-thumbnail {
+    height: auto;
+}
+aside .container.d-flex.align-items-center .img-thumbnail {
+
+}
+aside .container.d-flex.align-items-center .text {
+    background-color: #879683;
+}
+aside .container img {
+
 }
